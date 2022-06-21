@@ -18,6 +18,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "sass" : "sass --watch .src/assets/scss:./src/assets/css",
+    "start:dev": "env-cmd -f .env.dev react-scripts start -p watch-css start-js", 
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
